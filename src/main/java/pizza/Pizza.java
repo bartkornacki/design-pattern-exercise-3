@@ -13,4 +13,14 @@ public abstract class Pizza {
         this.components = components;
         this.pizzaType = pizzaType;
     }
+
+    public void showPizzaInfo() {
+        System.out.println(
+                "Pizza{" +
+                        "cost=" + cost +
+                        ", components=" + components +
+                        ", pizzaType=" + pizzaType +
+                        '}'
+        );
+    }
 }

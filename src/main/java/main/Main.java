@@ -18,12 +18,14 @@ public class Main {
         Pizza margeritaOne = pizzaFactory.create(12345, Arrays.asList("cheese"), PizzaType.MARHERITA);
         Pizza thaiOne = pizzaFactory.create(123456, Arrays.asList("cheese"), PizzaType.THAI);
 
+        capriciosaOne.showPizzaInfo();
+        hawaiOne.showPizzaInfo();
+        margeritaOne.showPizzaInfo();
+        thaiOne.showPizzaInfo();
 
         capriciosaPizza.showPizzaInfo();
         hawaiPizza.showPizzaInfo();
         margheritaPizza.showPizzaInfo();
 
-
     }
-
 }
