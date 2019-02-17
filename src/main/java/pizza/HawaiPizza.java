@@ -2,13 +2,12 @@ package pizza;
 
 import java.util.List;
 
-public class HawaiPizza {
+public class HawaiPizza extends Pizza {
     private double cost;
     private List<String> components;
 
     public HawaiPizza(double cost, List<String> components) {
-        this.cost = cost;
-        this.components = components;
+        super(cost, components, PizzaType.HAWAI);
     }
 
     public double getCost() {
